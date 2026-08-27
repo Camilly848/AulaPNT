@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+
+<body>
+
+    <a href="/index.html">Home<img src="/icone/giphy.gif" alt="" height="200"></a>
+
+    <p>
+    <h1>Formulário de cadastro de usúario</h1>
+
+    <form action="/index.html" method="get" name="cad_user">
+
+        <label>Informe seu nome: <br><input type="text" name="nome" id="nome" required></label> <br>
+        <label>Informe sua senha: <br> <input type="password" name="senha" id="senha" required></label> <br>
+        <label>Informe seu E-mail: <br> <input type="email" name="email" id="email"
+                placeholder="exemplo@dominio.com.br"></label> <br>
+        <label>Informe sua data de nascimento: <br> <input type="date" name="nasc" id="nasc"></label> <br>
+
+        <label><input type="radio" name="transporte" id="transporte" value="carro" />Carro</label> <br>
+        <label><input type="radio" name="transporte" id="transporte" value="bike" />bike</label> <br>
+        <label><input type="radio" name="transporte" id="transporte" value="nadando" />Lancha</label> <br>
+
+        <b>Qual o seu meio de transporte secundario</b> <br>
+        <label><input type="checkbox" name="bus" id="onibus">Ônibus</label> <br>
+        <label><input type="checkbox" name="aviao" id="aviao">Avião</label> <br>
+        <label><input type="checkbox" name="barco" id="barco">Barco</label> <br>
+
+        <b>Informe seu estado</b> <br>
+        <select name="estado">
+            <option value="PE" />PERNAMBUCO
+            <option value="BA" />BAHIA
+            <option value="PA" />PARAIBA
+            <option value="PA" />PARANÁ
+        </select> <br>
+
+        <b>Observação</b>
+        <textarea rows="10" cols="30">
+O gato estava no jardim
+</textarea>
+
+        <br>
+        <input type="reset" value="Limpar"> <br>
+
+        <br> <input type="submit" value="Enviar">
+
+    </form>
+    </p>
+
+
+    <table border="1">
+
+        <form action="index.html" method="get">
+
+            <tr>
+                <th colspan="4">Solicitação de Cancelamento</th>
+            </tr>
+
+            <tr>
+                <td>Domínio</td>
+                <th>seudominio.com</th>
+            </tr>
+
+            <tr>
+                <td>Pessoa responsável por esta solicitação:</td>
+                <td><input type="text" name="nomer" id="nomer"></td>
+            </tr>
+
+            <tr>
+                <td>RG número:</td>
+                <td><input type="text" name="rg" id="rg"></td>
+            </tr>
+
+            <tr>
+                <td>Expedido por:</td>
+                <td><input type="text" name="nome" id="nome"></td>
+            </tr>
+
+            <tr>
+                <td>E-mail para contato:</td>
+                <td><input type="email" name="email" id="email"></td>
+            </tr>
+
+            <tr>
+                <td>Telefone para conatato:</td>
+                <td><input type="text" name="tel" id="tel"></td>
+            </tr>
+
+            <tr>
+                <td>Motivo do cancelamento</td>
+                <td><input type="text" name="mot" id="mot"></td>
+            </tr>
+
+            <tr>
+                <td colspan="4"><input type="submit" value="Enviar"></td>
+            </tr>
+
+        </form>
+
+    </table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
