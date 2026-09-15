@@ -1,0 +1,54 @@
+h1 {
+    color: darkred;
+    font-size: 30px;
+}
+
+p.italico {
+    color: hsla(0, 26%, 81%, 0.844);
+    text-align: justify;
+    text-indent: 50px;
+    font-family: arial, helvetica, sans-serif;
+    font-style: italic;
+    font-size: 1em;
+}
+
+p.normal {
+    color: hsl(61, 90%, 52%);
+    text-align: justify;
+    text-indent: 50px;
+    font-family: arial, helvetica, sans-serif;
+    font-style: normal;
+    font-size: 20px;
+}
+
+p.oblique {
+    color: hsla(152, 81%, 51%, 0.844);
+    text-align: justify;
+    text-indent: 50px;
+    font-family: arial, helvetica, sans-serif;
+    font-style: oblique;
+    font-size: 20px;
+}
+
+b {
+    color: rgb(230, 177, 186);
+    font-size: 20px;
+}
+
+body {
+    background-color: #7641ac;
+    background-image: url(../icone/giphy.gif);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: top center;
+    background-size: 50vh;
+}
+
+a {
+    text-decoration: underline double #911d57;
+    text-transform: capitalize;
+}
+
+
+
+
