@@ -36,7 +36,7 @@ b {
 }
 
 body {
-    background-color: #7641ac;
+    background-color: #107010;
     background-image: url(../icone/giphy.gif);
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -47,8 +47,25 @@ body {
 a {
     text-decoration: underline double #911d57;
     text-transform: capitalize;
+    display: inline;
 }
 
+a:hover {
+    color: #f0f;
+}
 
+ul.n0ordenada {
+    list-style-type: square;
+}
 
+li.ordenada {
+    list-style-type: upper-alpha;
+}
+
+table, th, td {
+    border: solid 1px #911d57;
+    width: 100%;
+    height: 50px;
+    padding: 5px, 30px, 50px 70px;
+}
 
