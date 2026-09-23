@@ -13,7 +13,7 @@ p.italico {
 }
 
 p.normal {
-    color: hsl(61, 90%, 52%);
+    color: hsl(61, 93%, 49%);
     text-align: justify;
     text-indent: 50px;
     font-family: arial, helvetica, sans-serif;
@@ -22,7 +22,7 @@ p.normal {
 }
 
 p.oblique {
-    color: hsla(152, 81%, 51%, 0.844);
+    color: hsla(118, 76%, 20%, 0.844);
     text-align: justify;
     text-indent: 50px;
     font-family: arial, helvetica, sans-serif;
@@ -36,7 +36,7 @@ b {
 }
 
 body {
-    background-color: #107010;
+    background-color: #0d6464;
     background-image: url(../icone/giphy.gif);
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -62,10 +62,48 @@ li.ordenada {
     list-style-type: upper-alpha;
 }
 
-table, th, td {
-    border: solid 1px #911d57;
-    width: 100%;
-    height: 50px;
-    padding: 5px 30px 50px 70px;
+.cor {
+    color: red;
 }
+
+#insetos {
+    background-color:blueviolet;
+}
+
+#repteis {
+    background-color:goldenrod
+}
+
+.tabela {
+    margin: 20px, 10px, 20px, 10px;
+} 
+
+.planoh1 {
+    background: orange;
+    padding: 20px 10px 10px 10px;
+    border: 4px solid black;
+    width: 240px;
+    height: 50px;
+}
+
+.cor {
+    background: yellow;
+    padding: 50px;
+    clear: both;
+}
+
+img.flutuar {
+    float: left;
+    width: 200px;
+}
+
+
+
+
+
+
+
+
+
+
 
