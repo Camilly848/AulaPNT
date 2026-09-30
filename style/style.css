@@ -1,10 +1,51 @@
+
 h1 {
-    color: darkred;
+    color: rgb(231, 220, 220);
     font-size: 30px;
 }
 
+body {
+    background-color: #4b8686;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: top center;
+    background-size: 50vh;
+}
+
+.formulario {
+    background-color: #4b8686;
+}
+.aula {
+    background-color:#4b8686;
+}
+
+.senha {
+    background-color: #4b8686;
+}
+
+.ati {
+    background-color: blue;
+     
+}
+
+.sen {
+    background-color: grey;
+}
+
+.tab {
+    background-color: green;
+}
+
+.for {
+    background-color: red;
+}
+
+a {
+    text-decoration: none;
+}
+
 p.italico {
-    color: hsla(0, 26%, 81%, 0.844);
+    color: hsla(0, 12%, 90%, 0.844);
     text-align: justify;
     text-indent: 50px;
     font-family: arial, helvetica, sans-serif;
@@ -13,7 +54,7 @@ p.italico {
 }
 
 p.normal {
-    color: hsl(61, 93%, 49%);
+    color: hsl(0, 0%, 97%);
     text-align: justify;
     text-indent: 50px;
     font-family: arial, helvetica, sans-serif;
@@ -33,21 +74,6 @@ p.oblique {
 b {
     color: rgb(230, 177, 186);
     font-size: 20px;
-}
-
-body {
-    background-color: #0d6464;
-    background-image: url(../icone/giphy.gif);
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: top center;
-    background-size: 50vh;
-}
-
-a {
-    text-decoration: underline double #911d57;
-    text-transform: capitalize;
-    display: inline;
 }
 
 a:hover {
@@ -75,7 +101,8 @@ li.ordenada {
 }
 
 .tabela {
-    margin: 20px, 10px, 20px, 10px;
+    background-color: rgb(102, 180, 199);
+
 } 
 
 .planoh1 {
@@ -86,15 +113,9 @@ li.ordenada {
     height: 50px;
 }
 
-.cor {
-    background: yellow;
-    padding: 50px;
-    clear: both;
-}
-
 img.flutuar {
     float: left;
-    width: 200px;
+    width: 100px;
 }
 
 
