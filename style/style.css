@@ -1,4 +1,4 @@
-
+<!--
 h1 {
     color: rgb(231, 220, 220);
     font-size: 30px;
@@ -25,23 +25,42 @@ body {
 
 .ati {
     background-color: blue;
-     
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 8px; 
 }
 
 .sen {
     background-color: grey;
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 8px; 
 }
 
 .tab {
     background-color: green;
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 8px; 
 }
 
 .for {
     background-color: red;
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 8px; 
+}
+
+.alar {
+    background-color: rgb(235, 12, 216);
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 8px; 
 }
 
 a {
     text-decoration: none;
+    color: white;
 }
 
 p.italico {

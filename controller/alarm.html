@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alarme</title>
+
+</head>
+
+<body>
+
+    <h3>Alarme</h3>
+
+    <audio id="sound" src="../midias/alarm.mp3" style="display: none;">alarm</audio>
+
+    <div class="container">
+        <h2>Minutos:</h2>
+        <select id=" minutos name=" minutos>minu</select>
+
+        <h2>Segundos</h2>
+        <select id="segundos name=" segundos"></select>
+        <br>
+        <br>
+        <button id="comecar">Começar</button>
+
+        <div id="display">
+            <h3></h3>
+        </div>
+
+    </div>
+
+    <script>
+        var display = document.getElementById('display');
+
+        var minutos = document.getElementById('minutos');
+        var segundos = documnet.getElementById('segundos');
+
+        var comecar = document.getElementById('comecar');
+
+
+        var cronometroSeg;
+
+        var minutoAtual;
+        var segundoAtual;
+
+        var interval;
+
+        for (var i = 0; i <= 59; i++) {
+            minutos.innerHTML += '<option value="' + i + '">' + i + '<option>';
+        }
+
+        for (var i = 0; i <= 59; i++) {
+            segundos.innerHTML += '<option value="' + i + '">' + i + '<option>';
+        }
+
+        comecar.addEventListener('click', function ())
+        minutoAtual = minutos.value;
+        segundoAtual = segundos.value;
+
+        display.childNodes[1].innerHTML = minutoAtual + ":" + segundoAtual;
+
+        intervalo = setInterval(function) {
+            segundoAtual--;
+            if (segundoAtual <= 0) {
+                if (minutoAtual > 0) {
+                    minutoAtual--;
+                    segundoAtual = 59;
+                }
+                else {
+                    document.getElementById("sound").play();
+                    alert("Desligar Alarme!");
+                    clearInterval(interval);
+                    location.reload();
+                }
+            }
+
+            display.childNodes[1].innerHTML = minutoAtual + ":" + segundoAtual;
+        }, 1000);
+    }
+
+    );
+
+
+    </script>
+
+
+
+
+
+
+</body>
+
+</html>
