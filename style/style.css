@@ -23,6 +23,10 @@ body {
     background-color: #4b8686;
 }
 
+.inic {
+    background-color: #4b8686;
+}
+
 .ati {
     background-color: blue;
     font-size: 30px;
@@ -53,6 +57,13 @@ body {
 
 .alar {
     background-color: rgb(235, 12, 216);
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 8px; 
+}
+
+.ini {
+    background-color: rgb(109, 9, 101);
     font-size: 30px;
     padding: 10px;
     border-radius: 8px; 
